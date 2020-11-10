@@ -15,7 +15,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.13",
     "neat-csv": "^5.2.0",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "package.json": "^2.0.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.6"
