@@ -7,5 +7,5 @@ module.exports = {
         'dbname': 'test', 
     },
     'port': 8000,
-    'connectionMethod': 'local'
+    'connectionMethod': 'remote'
 }
