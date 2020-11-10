@@ -10,6 +10,7 @@ app.use(express.json());
 app.use(express.static(`${__dirname}/build`));
 app.use(cors());
 
+
 const { username, password, dbname } = settings['db'];
 const port = process.env.PORT || settings['port'];
 const connectionMethod = settings['connectionMethod'];
