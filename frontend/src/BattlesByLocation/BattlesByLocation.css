@@ -20,3 +20,8 @@
 .margin {
     margin-top: 25px;
 }
+
+.button {
+    margin-top: 25px !important;
+    width: 20% !important;
+}

@@ -6,6 +6,7 @@ import Container from '@material-ui/core/Container';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
 import './BattlesByLocation.css';
 
 const BattlesByLocation = (props) => {
@@ -42,10 +43,12 @@ const BattlesByLocation = (props) => {
 
     return (
         <div>
-            <Container maxWidth="sm" className="container">
+            <Container maxWidth="md" className="container">
                 
-                <Typography variant="h2">
-                    Details of battles based on the location
+                <Typography variant="h2" component="div">
+                    <Box fontFamily="Monospace" fontWeight={600}>
+                        Details of battles based on the location
+                    </Box>
                 </Typography>
                 
                 <div className="inner-container">
@@ -70,7 +73,7 @@ const BattlesByLocation = (props) => {
                         )}
                     />
                     
-                    <Button variant="contained" color="primary" style={{marginTop: '25px', width: '30%'}} onClick={handleClick}>
+                    <Button className="button" variant="contained" color="primary" onClick={handleClick}>
                         Submit
                     </Button>
 
