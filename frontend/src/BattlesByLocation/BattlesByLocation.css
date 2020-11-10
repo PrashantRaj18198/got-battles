@@ -1,0 +1,22 @@
+
+.container {
+    margin-top: 2rem;
+}
+
+.inner-container {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    width: 100%;
+}
+
+.margin {
+    margin-top: 25px;
+}
